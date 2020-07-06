@@ -1,0 +1,27 @@
+/* margin, padding, one: element, class, or id */\
+/* stylesheet.css */
+/* Style rule for the body element */
+html {
+	margin: 10;
+	padding: 0;
+	}
+body { 
+	font-family: "Raleway", Arial, sans-serif;
+	line-height: 1.88889;
+	color: #539214; 
+	background: #fff;
+	margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;; 
+    padding: 0;
+    background-color: #999;
+    text-align: center;
+	}
+p { 
+	text-align: center;
+    }
+
+
+
