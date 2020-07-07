@@ -1,12 +1,21 @@
 /* margin, padding, one: element, class, or id */\
 /* stylesheet.css */
 /* Style rule for the body element */
-html {
-	margin: 10;
-	padding: 0;
+div {
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
 	}
 body { 
-	font-family: "Raleway", Arial, sans-serif;
+	background-color: #999;
+  	background-image: url(morocco-blue.png); 
+  	/* Default font styling */
+  	font: 10pt Arial, Helvetica, Sans-Serif;
+	color: #5d3f25;
+	text-align: center;
+
+  	/* font-family: "Raleway", Arial, sans-serif;
 	line-height: 1.88889;
 	color: #539214; 
 	background: #fff;
@@ -17,11 +26,53 @@ body {
         margin-left: auto;; 
     padding: 0;
     background-color: #999;
-    text-align: center;
+    text-align: center; */
 	}
-p { 
+
+#wrapper {
+	width: 90%;
+	min-width: 600px;
+	max-width: 1200px;
+	margin: 1em auto;
+	background-color: white;
+	border: solid 2px #4c2e16;
+	border-radius: 20px;
+	box-shadow: 8px 8px 8px black;
+	padding: 50px;
+	}
+/* p { 
 	text-align: center;
-    }
+	} */
+/*======== Styling for the article section */
+/* article {
+	padding: 10px; 
+	/* Left margin should match neighboring column full width */
+	margin-left: 150px;
+	border-left: solid 1px #d0ae8e;
+} */
 
-
-
+/* Works with images, tables, and block elements (div, p, and headings) */
+ .raised {
+  border: solid 1px gray;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px gray;
+ }
+ /* Image floating to the left of neighboring text */
+ img.left {
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+ }
+ /* Image floating to the left of neighboring text */
+ img.right {
+  float: right;
+  width: 30%;
+  margin-left: 10px;
+ }
+ /* Use class="centerall" in p or div to center
+  all text and images inside the element */
+ .centerall {
+  text-align: center; 
+  /* Clear any floating elements */
+  clear: both;
+ }
